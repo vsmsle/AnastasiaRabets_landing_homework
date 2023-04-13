@@ -1,5 +1,7 @@
 @import url("./cdn.css");
 @import url("./portfolio.css");
+@import url('./pricing.css');
+@import url('./customers.css');
 
 * {
   margin: 0;
