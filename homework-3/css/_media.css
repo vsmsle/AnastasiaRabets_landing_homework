@@ -1,0 +1,218 @@
+@media (max-width: 992px) {
+    .header-logo__text {
+      font-size: 30px;
+    }
+    .navigation-list__item a {
+      font-size: 20px;
+    }
+    .primary-container{
+      flex-wrap: wrap;
+    }
+    .primary-information {
+      margin-bottom: 50px;
+    }
+    .primary-form {
+      margin: auto;
+    }
+    .social-info {
+      margin-bottom: 20px;
+    }
+    .social-navigation {
+      margin: auto;
+    }
+    .social-navigation-list {
+      flex-wrap: wrap;
+    }
+    .social-navigation-list__item a {
+      font-size: 30px;
+    }
+    .features-wrap {
+      justify-content: space-evenly;
+    }
+    .content-tab__item-img {
+      display: none;
+    }
+    .process-card-wrap {
+      justify-content: space-evenly;
+    }
+    .process-card {
+      margin-bottom: 40px;
+    }
+    .pricing-wrap {
+      justify-content: space-evenly;
+    }
+    .pricing-card {
+      margin-bottom: 40px;
+    }
+    .testimonials-card-wrap {
+      justify-content: space-evenly;
+    }
+    .testimonials-card {
+      margin-bottom: 40px;
+    }
+    .testimonial-card__customer {
+      justify-content: space-evenly;
+    }
+    .testimonials-card__customer-feedback {
+      width: 220px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-logo__text {
+      font-size: 25px;
+    }
+    .navigation-list__item a {
+      font-size: 15px;
+    }
+    .social-content{
+      display: inline;
+    }
+    .social-info__name {
+      text-align: center;
+    }
+    .social-navigation {
+      width: 100%;
+    }
+    .social-navigation-list {
+      justify-content: space-evenly;
+    }
+    .features-wrap {
+      flex-wrap: wrap;
+    }
+    .features-header-tab {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .features-header-tab__btn {
+      margin: 20px;
+    }
+    .features-header-tab__btn:last-child {
+      margin-bottom: 20px;
+    }
+    .content-tab__item-heading {
+      margin-bottom: 10px;
+    }
+    .content-tab-download__text {
+      width: 100%;
+    }
+    .content-tab-download__link {
+      position: relative;
+    }
+    .heading-title__text {
+      font-size: 25px;
+    }
+    .process-card__title {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .header-logo__text {
+      font-size: 30px;
+    }
+    .navigation-list__item a {
+      font-size: 15px;
+    }
+    .header-wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .navigation-list__item {
+      margin-left: 25px;
+    }   
+    .primary-logo {
+      margin-bottom: 10px;
+    }
+    .primary-heading {
+      font-size: 30px;
+    }
+    .primary-description {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    .download-link__link {
+      font-size: 18px;
+    }
+    .form-item__label {
+      font-size: 18px;
+    }
+    .primary-send-button {
+      font-size: 20px;
+    }
+    .features-header-tab__btn {
+      width: 80px;
+      height: 80px;
+    }
+    .contact-us-form-content {
+      margin: 20px;
+      width: 100%;
+    }
+    .contact-us-form_textarea {
+      margin: 20px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 496px) {
+    .header-logo__text {
+      font-size: 30px;
+      line-height: 32px;
+    }
+    .navigation-list__item a {
+      font-size: 15px;
+    }
+    .header-wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .header-logo {
+      margin-bottom: 10px;
+      display: flex;
+    }
+    .navigation-list__item {
+      margin-left: 25px;
+    }
+    .social-navigation-list__item {
+      margin: 20px;
+    }
+    .social-navigation-list a {
+      font-size: 25px;
+    }
+    .content-tab__item-heading {
+      font-size: 16px;
+    }
+    .content-tab__item-heading {
+      font-size: 15px;
+    }
+    .content-tab__item-text {
+      font-size: 10px;
+    }
+    .features-header-tab__btn {
+      width: 60px;
+      height: 60px;
+    }
+    .icon-copyright {
+      flex-wrap: wrap;
+    }
+    .social-icon-picture__item {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    .navigation-list__item {
+      margin-left: 12px;
+    }
+    .header-logo__text {
+      font-size: 20px;
+    }
+    .navigation-list__item a {
+      font-size: 12px;
+    }
+    .primary-form__title {
+      width: 100%;
+      font-size: 18px;
+    }
+  }

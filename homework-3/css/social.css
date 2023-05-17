@@ -1,0 +1,106 @@
+.social {
+    background-color: #F8EFEF;
+    padding: 15px 0;
+  }
+  
+  .social-content {
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-info {
+    margin: 0 15px;
+  }
+  
+  .social-info__name {
+    display:inline-block;
+    margin-bottom: 14px;
+    width: 125px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-transform: capitalize;
+  }
+  
+  .social-info__text {
+    max-width: 365px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+  }
+  
+  .social-navigation {
+    margin: 0 15px;
+    width: 684px; 
+  }
+  
+  .social-navigation-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-navigation-list__item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    color: rgba(134, 135, 139, .3);
+  }
+  
+  .social-navigation-list__item a:hover {
+    color:#86878B;
+  }
+  
+  .fa-facebook-f:hover {
+    transform: rotate(360deg);
+    transition: .8s;
+    color: #3b5998;
+  }
+  
+  .fa-twitter:hover {
+    transform: translate(10px, 10%);
+    transition: .8s;
+    color: #1DA1F2;
+  }
+  
+  .fa-google-plus-g:hover {
+    transform: scale(1, 0.8);
+    transition: .8s;
+    color: #0F9D58;
+  }
+  
+  .fa-pinterest:hover {
+    transform:  matrix(1, 0, 1, 1, 1, 1);
+    transition: .8s;
+    color: #E60023;
+  }
+  
+  .fa-instagram:hover {
+    transform: translateX(7px) rotate(10deg) translateY(7px);
+    transition: .8s;
+    color: #f34dc1;
+  }
+  
+  .fa-tiktok:hover {
+    transform: rotate(90deg);
+    transition: .8s;
+    color: #f74425;
+  }
+  
+  .fa-rss:hover {
+    transform: rotate(360deg);
+    transition: .8s;
+    color: #ee802f;
+  }

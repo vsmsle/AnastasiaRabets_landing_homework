@@ -1,0 +1,137 @@
+.features {
+    padding: 80px 0;
+    background-color: #FFFFFF;
+  }
+  
+  .features-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+  }
+  
+  .features-header-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+  }
+  
+  .features-header-tab__btn {
+    margin-bottom: 10px;
+    width: 112px;
+    height: 110px;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #333333;
+    cursor: pointer;
+  }
+  
+  .features-header-tab__btn:last-child {
+    margin-bottom: 0;
+  }
+  
+  .features-header-tab__btn:hover {
+    color: #EC7979;
+    background-color: #FFFFFF;
+    transition: .5s;
+    border: 1px solid #EC7979;
+  }
+  
+  .features-header-tab__btn:active {
+    color: #FFFFFF;
+    background-color: #EC7979;
+    transition: .9s;
+  }
+  
+  .features-header-tab__btn:focus {
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: 0 solid #EC7979;
+    transition: .9s;
+  }
+  
+  .content-tab__item {
+    display: flex;
+    margin: 0 15px;
+  }
+  
+  .content-tab__item-heading {
+    margin-bottom: 58px;
+    max-width: 408px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  
+  }
+  
+  .content-tab__item-content {
+    position: relative;
+    margin: 0 15px;
+  }
+  
+  .content-tab__item-text {
+    margin-bottom: 19px;
+    max-width: 572px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #86878B;;
+  }
+  
+  .content-tab-download__link {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #EC7979;
+    width: 135px;
+    height: 42px;
+    padding: 11px 26px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px; 
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    transition: .9s;
+  }
+  
+  .content-tab-download__link:hover{
+    background: #FFFFFF;
+    color: #EC7979;
+    transition: .5s;
+  }
+  
+  .content-tab-download__link:active {
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: .9s;
+  }
+  
+  .content-tab__item-img {
+    margin: 0 15px;
+    width: 320px;
+    height: 253px;
+  }
